@@ -1,9 +1,8 @@
 {
     "targets": [
         {
-            "target_name": "node-qrencode",
+            "target_name": "node-qrencode-encoder",
             "sources": [
-                "src/node-qrencode.cc",
                 "src/node-qrencode-encoder.cc"
             ],
             "include_dirs": [

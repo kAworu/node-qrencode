@@ -52,7 +52,7 @@ describe("constants", function () {
 
 describe("encode()", function () {
     it.skip("should be implemented", function (done) {
-        qrencode.encode(function (err) {
+        qrencode.encode("A brief note", function (err) {
             expect(err).to.not.exist;
             return done();
         });
